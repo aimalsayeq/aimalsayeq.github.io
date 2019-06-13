@@ -5,8 +5,13 @@ p{
 }
 h1{
   color: blue;
-  background-color: yellow and green;
+  background-color: yellow;
 }
 body{
   background-color: white;
+}
+
+.profile-picture{
+  width: 600px;
+  max-width: 100%;
 }
