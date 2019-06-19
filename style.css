@@ -5,13 +5,37 @@ p{
 }
 h1{
   color: blue;
-  background-color: yellow;
+
 }
 body{
   background-color: white;
+  margin: 0;
 }
 
 .profile-picture{
-  width: 600px;
-  max-width: 100%;
+  width: 350px;
+  height: 350px;
+  max-width: 100%
+
+  }
+  .header{
+    overflow: hidden;
+    background-color: green;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+
+
+
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+
 }

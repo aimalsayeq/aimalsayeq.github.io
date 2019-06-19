@@ -8,18 +8,59 @@
   <meta name="description" content="Home Page">
 
   <meta name="author" content="Aimal Sayeq">
+<style>
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+li {
+  float: right;
+}
+li  a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+
+</style>
 </head>
+
 <body>
-  <h1>This is heading one</h1>
+  <div class="header">
+    <h1>Header</h1>
+  </div>
+
+
   <img src="./sample.jpg" alt="My pic" class="profile-picture">
     <p>Hello, This is my first page. Welcome to this page.
       This is the very basic html program. I want to develop this page in the future and make more
       updates to it.Thanks</p>
       I put a picture to this file. I added a picture.
-      <amp-img src="air.jpeg" alt="Welcome" height="400" width="700"></amp-img>
+<ul>
+  <li><a class="active"href="#home">Home</a>
+  </li>
+  <li><a href="about">About</a>
+  </li>
+  <li><a href="contact">Contact</a>
+  </li>
+</ul>
 
 
+
+<div class="footer">
+  <h1>This is footer</h1>
+</div>
 <script src="./main.js"></script>
 </body>
 </html>
