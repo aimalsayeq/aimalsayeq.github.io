@@ -87,3 +87,10 @@ body{
 about.footer{
   background-color: black;
 }
+html {
+  background: <a href="Kuala lumpur.jpg"</a> no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
