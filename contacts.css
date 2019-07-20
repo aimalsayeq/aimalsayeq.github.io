@@ -31,3 +31,28 @@ body{
 .card:focus-within ~ .card{
    transform: translateX(calc(var(--distance) * -1));
 }
+.Ashak{
+  width: 350px;
+  height: 200px;
+  max-width: 100%
+}
+.Bolani{
+  width: 350px;
+  height: 200px;
+  max-width: 100%
+}
+.Kebab{
+  width: 350px;
+  height: 200px;
+  max-width: 100%
+}
+.Qabli{
+  width: 350px;
+  height: 200px;
+  max-width: 100%
+}
+.Jalebi{
+  width: 350px;
+  height: 200px;
+  max-width: 100%
+}
